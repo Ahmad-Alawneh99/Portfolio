@@ -1,0 +1,49 @@
+{
+	"options": {
+	  "merge-default-rules": false
+	},
+	"files": {
+	  "include": "src/**/*.s+(a|c)ss"
+	},
+	"rules": {
+		"empty-line-between-blocks": 1,
+		"extends-before-mixins": 2,
+		"extends-before-declarations": 2,
+		"placeholder-in-extend": 2,
+		"single-line-per-selector": 2,
+		"mixins-before-declarations": [
+			2,
+			{
+				"exclude": [
+					"breakpoint",
+					"mq"
+				]
+			}
+		],
+		"no-warn": 1,
+		"no-empty-rulesets": 2,
+		"no-debug": 1,
+		"no-ids": 2,
+		"no-important": 2,
+		"no-trailing-whitespace": 2,
+		"hex-notation": [
+			2,
+			{
+				"style": "uppercase"
+			}
+		],
+		"indentation": [
+			2,
+			{
+				"size": "tab"
+			}
+		],
+		"property-sort-order": [
+			2,
+			{
+				"ignore-custom-properties": true
+			}
+		],
+		"bem-depth": 1
+	}
+}

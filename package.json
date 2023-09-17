@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sass-lint": "sass-lint -v -c .sasslintrc"
   },
   "dependencies": {
     "eslint": "8.49.0",
@@ -14,5 +15,9 @@
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "sass": "^1.67.0",
+    "sass-lint": "^1.13.1"
   }
 }
