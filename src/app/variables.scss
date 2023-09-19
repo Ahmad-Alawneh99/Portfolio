@@ -1,0 +1,17 @@
+:root {
+	--primary-foreground: #333;
+	--primary-background: #fff;
+	--secondary-foreground: #666;
+	--secondary-background: #f5f5f5;
+	--link-color: #007BFF;
+	--link-hover-color: #0056b3;
+}
+
+[data-theme='dark'] {
+	--primary-foreground: #fff;
+	--primary-background: #333;
+	--secondary-foreground: #ccc;
+	--secondary-background: #222;
+	--link-color: #4CAF50;
+	--link-hover-color: #388E3C;
+}

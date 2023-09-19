@@ -1,0 +1,11 @@
+.headerContainer {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 48px;
+	background: var(--secondary-background);
+	border-bottom: 2px solid var(--secondary-foreground);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
