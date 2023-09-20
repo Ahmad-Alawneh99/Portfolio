@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useLayoutEffect, useState } from 'react';
 import themeToggleStyles from './themeToggle.module.scss';
 import { icons } from '@/icons';
 
 export default function RenderThemeToggle() {
 	const [theme, setTheme] = useState('');
 
-	useEffect(() => {
+	useLayoutEffect(() => {
 		const storedTheme = localStorage.getItem('theme');
 		if (storedTheme !== theme) {
 			setTheme(storedTheme);
@@ -23,7 +23,7 @@ export default function RenderThemeToggle() {
 	return (
 		<>
 			<label className={themeToggleStyles.toggleContainer}>
-				{theme == 'dark' ? icons.moon : icons.sun}
+				{theme == 'light' ? icons.lightBulbOn : icons.lightBulbOff}
 				<input type='checkbox' className={themeToggleStyles.toggleCheckbox} onChange={handleThemeChange}/>
 			</label>
 		</>

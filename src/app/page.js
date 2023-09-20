@@ -1,16 +1,18 @@
 "use client"
 import sharedStyles from './shared.module.scss'
-import pageStyles from './page.module.scss';
 import Header from '../components/header/Header';
+import TitledSection from '../components/titledSection/TitledSection';
+import LeadSpace from '../components/leadSpace/LeadSpace';
 
 export default function RenderHomePage() {
   return (
+	<>
+		<Header/>
 		<main className={sharedStyles.main}>
-			<Header/>
-			<h1>Coming soon!</h1>
-			<div className={pageStyles.container}>
-				<p className={pageStyles.headline}>Ahmad&apos;s Portfolio</p>
-			</div>
+			<TitledSection>
+				<LeadSpace/>
+			</TitledSection>
 		</main>
+	</>
 	)
 }

@@ -9,7 +9,6 @@
 
 html,
 body {
-	max-width: 1400px;
 	overflow-x: hidden;
 	margin: auto;
 }
@@ -17,6 +16,7 @@ body {
 body {
 	color: var(--primary-foreground);
 	background: var(--primary-background);
+	margin: 0 auto;
 }
 
 a {
