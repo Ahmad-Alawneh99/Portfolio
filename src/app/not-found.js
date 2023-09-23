@@ -7,7 +7,7 @@ import { icons } from '@/icons';
 
 export default function Render404() {
 	useLayoutEffect(() => {
-		const storedTheme = localStorage.getItem('theme');
+		const storedTheme = localStorage.getItem('theme') || 'dark';
 		document.body.dataset.theme = storedTheme;
 	});
 
