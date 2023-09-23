@@ -6,7 +6,7 @@ export default function RenderThemeToggle() {
 	const [theme, setTheme] = useState('');
 
 	useLayoutEffect(() => {
-		const storedTheme = localStorage.getItem('theme');
+		const storedTheme = localStorage.getItem('theme') || 'dark';
 		if (storedTheme !== theme) {
 			setTheme(storedTheme);
 			document.body.dataset.theme = storedTheme;
