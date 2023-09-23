@@ -1,4 +1,3 @@
-
 import TitledSection from '../titledSection/TitledSection';
 import contactInfoStyles from './contactInfo.module.scss';
 
