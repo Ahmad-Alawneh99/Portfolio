@@ -1,0 +1,25 @@
+.leadSpaceContainer {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	gap: 8px;
+
+	.nameContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.name {
+		color: rgb(199, 130, 3);
+		display: inline;
+		font-size: 24px;
+		margin-left: 4px;
+	}
+
+	p,
+	span {
+		font-size: 20px;
+	}
+}

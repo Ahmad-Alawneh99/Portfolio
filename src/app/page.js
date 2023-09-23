@@ -1,9 +1,22 @@
-import styles from './page.module.scss'
+"use client"
+import sharedStyles from './shared.module.scss'
+import Header from '../components/header/Header';
+import LeadSpace from '../components/leadSpace/LeadSpace';
+import Skills from '../components/skills/Skills';
+import ContactInfo from '../components/contact/ContactInfo';
+import About from '../components/about/About';
 
-export default function Home() {
+export default function RenderHomePage() {
   return (
-		<main className={styles.main}>
-			<h1>Coming soon!</h1>
+	<>
+		<Header/>
+		<main className={sharedStyles.main}>
+			<LeadSpace/>
+			<About/>
+			<Skills/>
+			<ContactInfo/>
+			<h2 className={sharedStyles.comingSoon}>More content coming soon!</h2>
 		</main>
+	</>
 	)
 }

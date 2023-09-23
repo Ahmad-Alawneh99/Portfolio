@@ -1,0 +1,23 @@
+.headerContainer {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 64px;
+	background: var(--secondary-background);
+	border-bottom: 2px solid var(--secondary-foreground);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 16px;
+
+	.headerItemsContainer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 1100px;
+	}
+
+	.title {
+		font-weight: 600;
+	}
+}
