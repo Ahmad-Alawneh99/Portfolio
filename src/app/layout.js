@@ -1,7 +1,7 @@
 import './globals.scss'
-import { Inter } from 'next/font/google'
+import { Kalam } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Kalam({ weight: '400', subsets: ['latin'] })
 
 export const metadata = {
 	title: 'Ahmad Alawneh',

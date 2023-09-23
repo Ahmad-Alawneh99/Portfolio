@@ -1,0 +1,18 @@
+.imageCardContainer {
+	align-items: center;
+	border-radius: 8px;
+	border: 1px solid var(--secondary-foreground);
+	display: inline-flex;
+	gap: 4px;
+	justify-content: space-between;
+	padding: 8px;
+
+	p {
+		transform: translateY(10%);
+	}
+
+	svg {
+		height: 24px;
+		width: 24px;
+	}
+}
