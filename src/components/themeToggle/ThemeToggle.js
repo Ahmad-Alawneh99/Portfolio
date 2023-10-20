@@ -14,18 +14,18 @@ export default function RenderThemeToggle() {
 	}, [theme]);
 
 	const handleThemeChange = () => {
-		const newTheme = theme == 'dark' ? 'light' : 'dark';
+		const newTheme = theme === 'dark' ? 'light' : 'dark';
 		setTheme(newTheme);
 		localStorage.setItem('theme', newTheme);
 		document.body.dataset.theme = newTheme;
-	}
+	};
 
 	return (
 		<>
 			<label className={themeToggleStyles.toggleContainer}>
-				{theme == 'light' ? icons.lightBulbOn : icons.lightBulbOff}
+				{theme === 'light' ? icons.lightBulbOn : icons.lightBulbOff}
 				<input type='checkbox' className={themeToggleStyles.toggleCheckbox} onChange={handleThemeChange}/>
 			</label>
 		</>
-	)
+	);
 }

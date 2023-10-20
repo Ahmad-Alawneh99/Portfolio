@@ -19,5 +19,5 @@ export default function RenderAbout() {
 				</p>
 			</div>
 		</TitledSection>
-	)
+	);
 }

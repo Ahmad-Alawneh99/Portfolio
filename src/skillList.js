@@ -69,4 +69,4 @@ export const skills = [
 		title: 'GIT/Github',
 		icon: icons.git,
 	},
-]
+];
