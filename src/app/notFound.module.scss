@@ -9,12 +9,12 @@
 }
 
 .backToHome {
-	display: flex;
 	align-items: center;
+	display: flex;
 	gap: 8px;
 
 	svg {
-		width: 28px;
 		height: 28px;
+		width: 28px;
 	}
 }
