@@ -10,5 +10,5 @@ export default function RenderContactInfo() {
 				<p>Check out my Github profile: <a href='https://github.com/Ahmad-Alawneh99' target='_blank'>https://github.com/Ahmad-Alawneh99</a></p>
 			</div>
 		</TitledSection>
-	)
+	);
 }
