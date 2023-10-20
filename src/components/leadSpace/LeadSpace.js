@@ -1,5 +1,5 @@
-import leadSpaceStyles from './leadSpace.module.scss';
 import TitledSection from '../titledSection/TitledSection';
+import leadSpaceStyles from './leadSpace.module.scss';
 
 export default function RenderLeadSpace() {
 	return (

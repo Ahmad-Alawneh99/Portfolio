@@ -21,4 +21,24 @@
 	.title {
 		font-weight: 600;
 	}
+
+	.leftSectionContainer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 16px;
+	}
+
+	.navMenu {
+		display: flex;
+		gap: 8px;
+	}
+
+	.navItem {
+		text-decoration: none;
+
+		&.activeNavItem {
+			border-bottom: 2px solid var(--primary-foreground);
+		}
+	}
 }

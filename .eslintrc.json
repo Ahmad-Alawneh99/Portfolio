@@ -20,6 +20,7 @@
     "padding-line-between-statements": ["error",
       { "blankLine": "always", "prev": "*", "next": "return" }
     ],
-    "no-multiple-empty-lines": ["error", { "max": 1 }]
+    "no-multiple-empty-lines": ["error", { "max": 1 }],
+    "import/order": "error"
   }
 }

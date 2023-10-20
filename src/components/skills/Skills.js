@@ -1,7 +1,7 @@
 import ImageCard from '../imageCard/ImageCard';
 import TitledSection from '../titledSection/TitledSection';
-import { skills } from '@/skillList';
 import skillsStyles from './skills.module.scss';
+import { skills } from '@/skillList';
 
 export default function RenderSkills() {
 	return (
