@@ -14,7 +14,7 @@ export function generateMetadata({ params }) {
 		generator: 'Next.js',
 		applicationName: 'Ahmad\'s Portfolio',
 		icons: {
-			icon: './favicon.ico',
+			icon: '../../favicon.ico',
 		},
 	};
 }

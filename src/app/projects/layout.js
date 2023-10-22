@@ -6,7 +6,7 @@ export const metadata = {
 	generator: 'Next.js',
 	applicationName: 'Ahmad\'s Portfolio',
 	icons: {
-		icon: './favicon.ico',
+		icon: '../favicon.ico',
 	},
 };
 
