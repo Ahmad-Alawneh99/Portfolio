@@ -15,7 +15,6 @@ export default function RenderHomePage() {
 				<About/>
 				<Skills/>
 				<ContactInfo/>
-				<h2 className={sharedStyles.comingSoon}>More content coming soon!</h2>
 			</main>
 		</>
 	);
