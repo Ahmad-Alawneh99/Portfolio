@@ -1,5 +1,8 @@
 import './globals.scss';
-import RenderSharedLayout from './sharedLayout';
+import { Kalam } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
+
+const inter = Kalam({ weight: '400', subsets: ['latin'] });
 
 export const metadata = {
 	title: 'Ahmad Alawneh',
@@ -13,5 +16,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-	return RenderSharedLayout(children);
+	return (
+		<html lang='en'>
+			<body className={inter.className} data-theme='dark'>
+				{children}
+				<Analytics />
+			</body>
+		</html>
+	);
 }

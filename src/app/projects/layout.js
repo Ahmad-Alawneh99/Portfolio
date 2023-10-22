@@ -1,7 +1,4 @@
 
-import '../globals.scss';
-import RenderSharedLayout from '../sharedLayout';
-
 export const metadata = {
 	title: 'Projects',
 	description: 'Ahmad Alawneh\'s projects',
@@ -14,5 +11,5 @@ export const metadata = {
 };
 
 export default function ProjectsLayout({ children }) {
-	return RenderSharedLayout(children);
+	return children;
 }

@@ -1,7 +1,4 @@
-
-import '../../globals.scss';
 import { projects } from '../projects';
-import RenderSharedLayout from '@/app/sharedLayout';
 
 export function generateMetadata({ params }) {
 	const project = projects.find((project) => project.uri === params.uri);
@@ -23,5 +20,5 @@ export function generateMetadata({ params }) {
 }
 
 export default function ProjectLayout({ children }) {
-	return RenderSharedLayout(children);
+	return children;
 }
