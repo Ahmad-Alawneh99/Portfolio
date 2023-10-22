@@ -3,10 +3,21 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	width: 125px;
 }
 
 .galleryImage {
 	cursor: pointer;
 	display: block;
 	object-fit: contain;
+}
+
+.galleryItemTitle {
+	font-size: 12px;
+	margin-top: 4px;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 125px;
 }
