@@ -1,9 +1,20 @@
 .projectsContainer {
 	display: flex;
 	width: 100%;
-    gap: 16px;
+	gap: 16px;
 }
 
 .shortDescription {
-    margin-bottom: 8px;
+	margin-bottom: 8px;
+}
+
+.projectTitle {
+	margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+	.projectsContainer {
+		flex-direction: column;
+		gap: 0;
+	}
 }
