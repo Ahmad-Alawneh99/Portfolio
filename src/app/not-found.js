@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { useLayoutEffect } from 'react';
 import sharedStyles from './shared.module.scss';
 import notFoundStyles from './notFound.module.scss';
-import { icons } from '@/icons';
 
 export default function Render404() {
 	useLayoutEffect(() => {
