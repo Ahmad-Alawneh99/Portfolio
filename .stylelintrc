@@ -1,5 +1,5 @@
 {
-  "plugins": ["stylelint-scss"],
+  "plugins": ["stylelint-scss", "stylelint-order"],
   "extends": "stylelint-config-standard-scss",
   "rules": {
     "at-rule-no-unknown": null,
@@ -13,6 +13,7 @@
     "at-rule-empty-line-before": "always",
     "rule-empty-line-before": "always",
     "indentation": "tab",
-    "selector-class-pattern": null
+    "selector-class-pattern": null,
+    "order/properties-alphabetical-order": true
   }
 }

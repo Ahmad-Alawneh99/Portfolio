@@ -1,0 +1,21 @@
+.projectsContainer {
+	display: flex;
+	gap: 16px;
+	width: 100%;
+}
+
+.shortDescription {
+	margin-bottom: 8px;
+}
+
+.projectTitle {
+	margin-top: 8px;
+}
+
+@media (width <= 600px) {
+
+	.projectsContainer {
+		flex-direction: column;
+		gap: 0;
+	}
+}

@@ -1,14 +1,14 @@
 .leadSpaceContainer {
 	display: flex;
-	justify-content: center;
-	text-align: center;
 	flex-direction: column;
 	gap: 8px;
+	justify-content: center;
+	text-align: center;
 
 	.nameContainer {
+		align-items: center;
 		display: flex;
 		justify-content: center;
-		align-items: center;
 	}
 
 	.name {

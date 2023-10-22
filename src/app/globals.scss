@@ -2,20 +2,20 @@
 
 * {
 	box-sizing: border-box;
-	padding: 0;
 	margin: 0;
+	padding: 0;
 	transition: all 0.05s linear;
 }
 
 html,
 body {
-	overflow-x: hidden;
 	margin: auto;
+	overflow-x: hidden;
 }
 
 body {
-	color: var(--primary-foreground);
 	background: var(--primary-background);
+	color: var(--primary-foreground);
 	margin: 0 auto;
 }
 
