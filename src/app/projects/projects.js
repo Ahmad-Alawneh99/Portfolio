@@ -112,7 +112,7 @@ export const projects = [
 				content: <>
 					<p>Aside from building the base functionality from the e-commerce side, like handling the logic for products, categories and other e-commerce related entities, I helped with the planning and architecture of a handful of features (as well as implementation), such as, the integration with the payment processing system and the integration with the delivery service to handle delivering users&apos; purchases.</p>
 					<br/>
-					<p>Additionally, in the earlier days of the project, I took part in designing the entire database of the application, which was a MySQL database.</p>
+					<p>Additionally, in the earlier days of the project, I took part in designing the entire database of the application, which was designed to support a multi-tenant architecture. The database a MySQL database.</p>
 				</>,
 			},
 			{
