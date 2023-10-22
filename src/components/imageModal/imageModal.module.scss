@@ -1,0 +1,22 @@
+.image {
+	object-fit: contain;
+	height: 750px;
+	width: 375px;
+}
+
+.imageTitle {
+	font-size: 32px;
+	color: #ecf0f1;
+}
+
+@media (width <= 1100px) {
+	.image {
+		object-fit: contain;
+		height: 500px;
+		width: 250px;
+	}
+
+	.imageTitle {
+		font-size: 24px;
+	}
+}

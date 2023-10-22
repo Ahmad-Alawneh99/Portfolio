@@ -17,6 +17,15 @@ body {
 	background: var(--primary-background);
 	color: var(--primary-foreground);
 	margin: 0 auto;
+
+	&[data-modal="true"] {
+		.imageModal {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+	}
 }
 
 a {
@@ -36,4 +45,14 @@ p {
 
 h3 {
 	font-size: 20px;
+}
+
+.imageModal {
+	background: rgba(0, 0, 0, 0.9);
+	display: none;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	user-select: none;
 }

@@ -70,12 +70,17 @@ export const projects = [
 					</div>
 				</>,
 			},
-			{
-				title: 'Photo Gallery',
-				content: <>
-					<p>Coming Soon!</p>
-				</>,
-			},
+		],
+		hasGallery: true,
+		imageList: [
+			{image: '/gallery/organizers_sign_up.jpg', title: 'Organizer sign up'},
+			{image: '/gallery/organizers_setup_profile.jpg', title: 'Organizer setup profile'},
+			{image: '/gallery/organizers_create_event_form.jpg', title: 'Create event form'},
+			{image: '/gallery/organizers_profile_page.jpg', title: 'Organizer profile page'},
+			{image: '/gallery/my_events.jpg', title: 'My events page'},
+			{image: '/gallery/events_feed.jpg', title: 'Events feed (home page)'},
+			{image: '/gallery/event_filter.jpg', title: 'Events filter'},
+			{image: '/gallery/email_notification_for_registering.jpg', title: 'Email notification'},
 		],
 	},
 	{
