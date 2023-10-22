@@ -13,11 +13,22 @@
 
 	.image {
 		height: 500px;
-		object-fit: contain;
 		width: 250px;
 	}
 
 	.imageTitle {
 		font-size: 24px;
+	}
+}
+
+@media (width <= 700px) {
+
+	.image {
+		height: 300;
+		width: 150px;
+	}
+
+	.imageTitle {
+		font-size: 18px;
 	}
 }
