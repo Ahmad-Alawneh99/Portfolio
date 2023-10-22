@@ -1,4 +1,3 @@
-
 export const metadata = {
 	title: 'Projects',
 	description: 'Ahmad Alawneh\'s projects',
