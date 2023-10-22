@@ -7,6 +7,16 @@
 	transition: all 0.05s linear;
 }
 
+.imageModal {
+	background: rgb(0 0 0 / 90%);
+	display: none;
+	height: 100%;
+	position: fixed;
+	user-select: none;
+	width: 100%;
+	z-index: 10;
+}
+
 html,
 body {
 	margin: auto;
@@ -17,6 +27,16 @@ body {
 	background: var(--primary-background);
 	color: var(--primary-foreground);
 	margin: 0 auto;
+
+	&[data-modal="true"] {
+
+		.imageModal {
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
 }
 
 a {
