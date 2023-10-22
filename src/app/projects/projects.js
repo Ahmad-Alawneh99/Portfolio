@@ -59,14 +59,14 @@ export const projects = [
 				content: <>
 					<h4>Frontend: </h4>
 					<div>
-						<a href="https://github.com/Ahmad-Alawneh99/EventLocator_Organizers" target="_blank">https://github.com/Ahmad-Alawneh99/EventLocator_Organizers</a>
+						<a href="https://github.com/Ahmad-Alawneh99/EventLocator_Organizers" target="_blank">EventLocator_Organizers</a>
 						<br/>
-						<a href="https://github.com/Ahmad-Alawneh99/Event_Locator" target="_blank">https://github.com/Ahmad-Alawneh99/Event_Locator</a>
+						<a href="https://github.com/Ahmad-Alawneh99/Event_Locator" target="_blank">Event_Locator</a>
 					</div>
 					<br/>
 					<h4>Backend: </h4>
 					<div>
-						<a href="https://github.com/deko966/eventlocator_backend" target="_blank">https://github.com/deko966/eventlocator_backend</a>
+						<a href="https://github.com/deko966/eventlocator_backend" target="_blank">EventLocator_backend</a>
 					</div>
 				</>,
 			},
