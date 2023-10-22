@@ -1,4 +1,3 @@
-
 import GalleryItem from '../galleryItem/GalleryItem';
 import galleryStyles from './gallery.module.scss';
 

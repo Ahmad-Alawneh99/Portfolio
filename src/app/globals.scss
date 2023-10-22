@@ -7,6 +7,16 @@
 	transition: all 0.05s linear;
 }
 
+.imageModal {
+	background: rgb(0 0 0 / 90%);
+	display: none;
+	height: 100%;
+	position: fixed;
+	user-select: none;
+	width: 100%;
+	z-index: 10;
+}
+
 html,
 body {
 	margin: auto;
@@ -19,11 +29,12 @@ body {
 	margin: 0 auto;
 
 	&[data-modal="true"] {
+
 		.imageModal {
-			display: flex;
 			align-items: center;
-			justify-content: center;
+			display: flex;
 			flex-direction: column;
+			justify-content: center;
 		}
 	}
 }
@@ -45,14 +56,4 @@ p {
 
 h3 {
 	font-size: 20px;
-}
-
-.imageModal {
-	background: rgba(0, 0, 0, 0.9);
-	display: none;
-	height: 100%;
-	position: fixed;
-	width: 100%;
-	z-index: 10;
-	user-select: none;
 }
