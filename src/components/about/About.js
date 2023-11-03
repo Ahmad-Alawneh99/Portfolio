@@ -1,7 +1,7 @@
 import TitledSection from '../titledSection/TitledSection';
 import aboutStyles from './about.module.scss';
 
-export default function RenderAbout() {
+export default function About() {
 	return (
 		<TitledSection title='About me'>
 			<div className={aboutStyles.aboutContainer}>

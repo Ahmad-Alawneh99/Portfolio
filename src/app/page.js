@@ -6,7 +6,7 @@ import ContactInfo from '../components/contact/ContactInfo';
 import About from '../components/about/About';
 import sharedStyles from './shared.module.scss';
 
-export default function RenderHomePage() {
+export default function HomePage() {
 	return (
 		<>
 			<Header/>

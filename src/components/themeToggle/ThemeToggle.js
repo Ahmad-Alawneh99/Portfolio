@@ -2,7 +2,7 @@ import { useLayoutEffect, useState } from 'react';
 import themeToggleStyles from './themeToggle.module.scss';
 import { icons } from '@/icons';
 
-export default function RenderThemeToggle() {
+export default function ThemeToggle() {
 	const [theme, setTheme] = useState('');
 
 	useLayoutEffect(() => {

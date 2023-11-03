@@ -1,6 +1,6 @@
 import imageCardStyles from './imageCard.module.scss';
 
-export default function RenderImageCard({ text, icon }) {
+export default function ImageCard({ text, icon }) {
 	return (
 		<div className={imageCardStyles.imageCardContainer}>
 			{icon}
