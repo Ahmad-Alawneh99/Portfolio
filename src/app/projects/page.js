@@ -6,7 +6,7 @@ import TitledSection from '../../components/titledSection/TitledSection';
 import projectsStyles from './projects.module.scss';
 import { projects } from './projects';
 
-export default function RenderProjectsPage() {
+export default function ProjectsPage() {
 	return (
 		<>
 			<Header/>

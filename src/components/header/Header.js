@@ -3,7 +3,7 @@ import { usePathname } from 'next/navigation';
 import ThemeToggle from '../themeToggle/ThemeToggle';
 import headerStyles from './header.module.scss';
 
-export default function RenderHeader() {
+export default function Header() {
 	return (
 		<div className={headerStyles.headerContainer}>
 			<div className={headerStyles.headerItemsContainer}>

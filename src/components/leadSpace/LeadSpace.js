@@ -1,7 +1,7 @@
 import TitledSection from '../titledSection/TitledSection';
 import leadSpaceStyles from './leadSpace.module.scss';
 
-export default function RenderLeadSpace() {
+export default function LeadSpace() {
 	return (
 		<TitledSection>
 			<div className={leadSpaceStyles.leadSpaceContainer}>

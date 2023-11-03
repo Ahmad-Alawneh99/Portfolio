@@ -9,7 +9,7 @@ import projectsStyles from '../projects.module.scss';
 import ImageModal from '../../../components/imageModal/ImageModal';
 import Gallery from '../../../components/gallery/Gallery';
 
-export default function RenderProjectsPage({ params }) {
+export default function ProjectsPage({ params }) {
 	const [imageData, setImageData] = useState({});
 
 	function onImageOpen(imageData) {

@@ -3,7 +3,7 @@ import TitledSection from '../titledSection/TitledSection';
 import skillsStyles from './skills.module.scss';
 import { skills } from '@/skillList';
 
-export default function RenderSkills() {
+export default function Skills() {
 	return (
 		<TitledSection title='Skill set'>
 			<div className={skillsStyles.skillsContainer}>

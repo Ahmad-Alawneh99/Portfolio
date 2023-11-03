@@ -1,7 +1,7 @@
 import TitledSection from '../titledSection/TitledSection';
 import contactInfoStyles from './contactInfo.module.scss';
 
-export default function RenderContactInfo() {
+export default function ContactInfo() {
 	return (
 		<TitledSection title='Contact info'>
 			<div className={contactInfoStyles.contactInfoContainer}>
