@@ -1,15 +1,8 @@
-'use client';
 import Link from 'next/link';
-import { useLayoutEffect } from 'react';
 import sharedStyles from './shared.module.scss';
 import notFoundStyles from './notFound.module.scss';
 
 export default function Render404() {
-	useLayoutEffect(() => {
-		const storedTheme = localStorage.getItem('theme') || 'dark';
-		document.body.dataset.theme = storedTheme;
-	});
-
 	return (
 		<main className={sharedStyles.main}>
 			<h1 className={notFoundStyles.header}>Oh no!</h1>

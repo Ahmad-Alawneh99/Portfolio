@@ -7,7 +7,7 @@ export const projects = [
 			{
 				title: 'How it all began',
 				content: <>
-					<p>It was my last year in university, and of course, with the last year comes the last year&apos;s project (also known as a &quot;graduation project&quot;). So me and my partner (who happens to be one of my best friends) <a href="https://www.linkedin.com/in/adel-minwer-33708a142/" target="_blank">Adel Minwer</a> got to work trying to come up with a cool and interesting idea to implement.</p>
+					<p>It was my last year in university, and of course, with the last year comes the last year&apos;s project (also known as a &quot;graduation project&quot;). So me and my partner (who happens to be one of my best friends) <a href='https://www.linkedin.com/in/adel-minwer-33708a142/' target='_blank'>Adel Minwer</a> got to work trying to come up with a cool and interesting idea to implement.</p>
 					<br/>
 					<p>We wanted to come with an idea that would be fun to implement, an idea that would give us the opportunity to learn and grow, an idea that provides value to its users. We were ambitious, and thus, the idea of Event Locator was born.</p>
 				</>,
@@ -59,28 +59,28 @@ export const projects = [
 				content: <>
 					<h4>Frontend: </h4>
 					<div>
-						<a href="https://github.com/Ahmad-Alawneh99/EventLocator_Organizers" target="_blank">EventLocator_Organizers</a>
+						<a href='https://github.com/Ahmad-Alawneh99/EventLocator_Organizers' target='_blank'>EventLocator_Organizers</a>
 						<br/>
-						<a href="https://github.com/Ahmad-Alawneh99/Event_Locator" target="_blank">Event_Locator</a>
+						<a href='https://github.com/Ahmad-Alawneh99/Event_Locator' target='_blank'>Event_Locator</a>
 					</div>
 					<br/>
 					<h4>Backend: </h4>
 					<div>
-						<a href="https://github.com/deko966/eventlocator_backend" target="_blank">EventLocator_backend</a>
+						<a href='https://github.com/deko966/eventlocator_backend' target='_blank'>EventLocator_backend</a>
 					</div>
 				</>,
 			},
 		],
 		hasGallery: true,
 		imageList: [
-			{image: '/gallery/organizers_sign_up.jpg', title: 'Organizer sign up'},
-			{image: '/gallery/organizers_setup_profile.jpg', title: 'Organizer setup profile'},
-			{image: '/gallery/organizers_create_event_form.jpg', title: 'Create event form'},
-			{image: '/gallery/organizers_profile_page.jpg', title: 'Organizer profile page'},
-			{image: '/gallery/my_events.jpg', title: 'My events page'},
-			{image: '/gallery/events_feed.jpg', title: 'Events feed (home page)'},
-			{image: '/gallery/event_filter.jpg', title: 'Events filter'},
-			{image: '/gallery/email_notification_for_registering.jpg', title: 'Email notification'},
+			{ image: '/gallery/organizers_sign_up.jpg', title: 'Organizer sign up' },
+			{ image: '/gallery/organizers_setup_profile.jpg', title: 'Organizer setup profile' },
+			{ image: '/gallery/organizers_create_event_form.jpg', title: 'Create event form' },
+			{ image: '/gallery/organizers_profile_page.jpg', title: 'Organizer profile page' },
+			{ image: '/gallery/my_events.jpg', title: 'My events page' },
+			{ image: '/gallery/events_feed.jpg', title: 'Events feed (home page)' },
+			{ image: '/gallery/event_filter.jpg', title: 'Events filter' },
+			{ image: '/gallery/email_notification_for_registering.jpg', title: 'Email notification' },
 		],
 	},
 	{
@@ -91,7 +91,7 @@ export const projects = [
 			{
 				title: 'A new challenge',
 				content: <>
-					<p>Shortly after my graduation, I got in touch with my buddy <a href="https://www.linkedin.com/in/hatem-abushaala/" target="_blank">Hatem abushaala</a>, he is the CTO and Co-founder of <a href="https://www.linkedin.com/company/saweyyan/" target="_blank">Saweyyan</a>, a startup IT service provider based in Libya, he presented me with an opportunity to work on the backend of one of Saweyyan&apos;s upcoming projects, that project was Vetrina.</p>
+					<p>Shortly after my graduation, I got in touch with my buddy <a href='https://www.linkedin.com/in/hatem-abushaala/' target='_blank'>Hatem abushaala</a>, he is the CTO and Co-founder of <a href='https://www.linkedin.com/company/saweyyan/' target='_blank'>Saweyyan</a>, a startup IT service provider based in Libya, he presented me with an opportunity to work on the backend of one of Saweyyan&apos;s upcoming projects, that project was Vetrina.</p>
 				</>,
 			},
 			{
@@ -103,7 +103,7 @@ export const projects = [
 			{
 				title: 'Technologies used',
 				content: <>
-					<p>The backend side of Vetrina was built using <a href="https://strapi.io/" target="_blank">Strapi</a>, a framework that generates a backend server in NodeJS and handles a lot of the mundane tasks when building a Node application from scratch.</p>
+					<p>The backend side of Vetrina was built using <a href='https://strapi.io/' target='_blank'>Strapi</a>, a framework that generates a backend server in NodeJS and handles a lot of the mundane tasks when building a Node application from scratch.</p>
 					<br/>
 					<p>Strapi also manages the database and the connection to the database from the code with ease.</p>
 					<br/>
@@ -124,9 +124,9 @@ export const projects = [
 				title: 'Discover more',
 				content: <>
 					<h4>Vetrina&apos;s homepage: </h4>
-					<a href="https://www.vetrinas.ly/" target="_blank">https://www.vetrinas.ly/</a>
+					<a href='https://www.vetrinas.ly/' target='_blank'>https://www.vetrinas.ly/</a>
 					<br/>
-					<p>Another shout out to my friend <a href="https://www.linkedin.com/in/hatem-abushaala/" target="_blank">Hatem</a> and the amazing people at <a href="https://www.linkedin.com/company/saweyyan/" target="_blank">Saweyyan</a></p>
+					<p>Another shout out to my friend <a href='https://www.linkedin.com/in/hatem-abushaala/' target='_blank'>Hatem</a> and the amazing people at <a href='https://www.linkedin.com/company/saweyyan/' target='_blank'>Saweyyan</a></p>
 				</>,
 			},
 		],

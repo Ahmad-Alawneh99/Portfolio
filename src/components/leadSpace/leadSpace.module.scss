@@ -1,25 +1,31 @@
 .leadSpaceContainer {
+	align-items: end;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	gap: 8px;
-	justify-content: center;
-	text-align: center;
+	justify-content: left;
+	margin-top: 86px;
+	width: 100%;
 
-	.nameContainer {
-		align-items: center;
+	.content {
+		align-items: left;
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
+		justify-content: left;
+		text-align: left;
+
+		.name {
+			font-size: 96px;
+		}
 	}
 
-	.name {
-		color: rgb(199 130 3);
-		display: inline;
-		font-size: 24px;
-		margin-left: 4px;
-	}
+	.imageContainer {
+		width: 35%;
 
-	p,
-	span {
-		font-size: 20px;
+		.image {
+			height: 100%;
+			object-fit: contain;
+			width: 100%;
+		}
 	}
 }
