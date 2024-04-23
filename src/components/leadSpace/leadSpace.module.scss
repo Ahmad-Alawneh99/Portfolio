@@ -16,6 +16,7 @@
 
 		.name {
 			font-size: 96px;
+			margin-bottom: 12px;
 		}
 	}
 
@@ -27,5 +28,17 @@
 			object-fit: contain;
 			width: 100%;
 		}
+	}
+}
+
+@media (width <= 600px) {
+	.leadSpaceContainer {
+		.content {
+			.name {
+				font-size: 76px;
+				margin-bottom: 8px;
+				text-align: center;
+			}
+		};
 	}
 }

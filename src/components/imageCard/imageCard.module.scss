@@ -3,8 +3,10 @@
 	border: 1px solid var(--secondary-foreground);
 	border-radius: 8px;
 	display: inline-flex;
+	flex-direction: column;
 	gap: 4px;
 	justify-content: space-between;
+	min-width: 128px;
 	padding: 8px;
 
 	p {
@@ -12,7 +14,7 @@
 	}
 
 	svg {
-		height: 24px;
-		width: 24px;
+		height: 48px;
+		width: 48px;
 	}
 }

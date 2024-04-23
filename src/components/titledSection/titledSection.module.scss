@@ -1,11 +1,17 @@
 .sectionContainer {
-	border: 2px solid var(--secondary-foreground);
-	border-radius: 16px;
+	border-radius: 8px;
 	margin: 16px 0;
-	padding: 16px;
+	padding-block: 16px;
 	width: 100%;
 }
 
 .sectionTitle {
+	font-size: 48px;
 	margin-bottom: 16px;
+}
+
+@media (width <= 600px) {
+	.sectionTitle {
+		font-size: 36px;
+	}
 }

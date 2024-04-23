@@ -1,8 +1,8 @@
 import './globals.scss';
-import { Kalam } from 'next/font/google';
+import { Noto_Sans } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 
-const inter = Kalam({ weight: '400', subsets: ['latin'] });
+const inter = Noto_Sans({ weight: '400', subsets: ['latin'] });
 
 export const metadata = {
 	title: 'Ahmad Alawneh',
