@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { useState } from 'react';
 import sharedStyles from '../../shared.module.scss';
 import Header from '../../../components/header/Header';
-import { projects } from '../projects';
+import { projects } from '../../../projects';
 import TitledSection from '../../../components/titledSection/TitledSection';
 import projectsStyles from '../projects.module.scss';
 import ImageModal from '../../../components/imageModal/ImageModal';

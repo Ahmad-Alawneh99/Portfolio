@@ -1,7 +1,13 @@
 .projectsContainer {
 	display: flex;
-	gap: 16px;
+	gap: 24px;
 	width: 100%;
+
+	.projectCard {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
 }
 
 .shortDescription {
@@ -9,7 +15,6 @@
 }
 
 .projectTitle {
-	font-size: 56px;
 	margin-top: 8px;
 }
 
@@ -20,10 +25,5 @@
 @media (width <= 600px) {
 	.projectsContainer {
 		flex-direction: column;
-		gap: 0;
-	}
-
-	.projectTitle {
-		font-size: 48px;
 	}
 }

@@ -1,26 +1,38 @@
 {
+  "parser": "@babel/eslint-parser",
   "extends": [
     "eslint:recommended",
-    "next/core-web-vitals"
+    "next/core-web-vitals",
+    "plugin:import/errors"
   ],
-  "rules": {
-    "semi": "error",
-    "quotes": ["error", "single"],
-    "eqeqeq": "error",
-    "no-await-in-loop": "error",
-    "consistent-return": "error",
-    "curly": "error",
-    "arrow-spacing": "error",
-    "no-multi-spaces": "error",
-    "eol-last": "error",
-    "comma-spacing": "error",
-    "comma-dangle": ["error", "always-multiline"],
-    "indent": ["error", "tab"],
-    "no-trailing-spaces": "error",
-    "padding-line-between-statements": ["error",
-      { "blankLine": "always", "prev": "*", "next": "return" }
-    ],
-    "no-multiple-empty-lines": ["error", { "max": 1 }],
-    "import/order": "error"
-  }
+  "plugins": ["import", "@stylistic/js", "import-newlines"],
+	"rules": {
+		"@stylistic/js/semi": "error",
+		"@stylistic/js/quotes": ["error", "single"],
+		"eqeqeq": "error",
+		"no-await-in-loop": "error",
+		"consistent-return": "error",
+		"curly": "error",
+		"import-newlines/enforce": ["error", { "items": 3 }],
+		"@stylistic/js/jsx-quotes": ["error", "prefer-single"],
+		"@stylistic/js/arrow-spacing": "error",
+		"@stylistic/js/no-multi-spaces": "error",
+		"@stylistic/js/eol-last": "error",
+		"@stylistic/js/comma-spacing": "error",
+		"@stylistic/js/comma-dangle": ["error", "always-multiline"],
+		"@stylistic/js/indent": ["error", "tab"],
+		"@stylistic/js/no-trailing-spaces": "error",
+		"@stylistic/js/padding-line-between-statements": ["error",
+			{ "blankLine": "always", "prev": "*", "next": "return" }
+		],
+		"@stylistic/js/no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
+		"import/order": "error",
+		"no-var": "error",
+		"@stylistic/js/object-curly-spacing": ["error", "always"],
+		"prefer-template": "error",
+		"@stylistic/js/keyword-spacing": ["error", { "before": true, "after": true }],
+		"@stylistic/js/block-spacing": "error",
+		"no-use-before-define": "error",
+		"@stylistic/js/space-infix-ops": ["error"]
+	}
 }

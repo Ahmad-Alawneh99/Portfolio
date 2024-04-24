@@ -1,4 +1,4 @@
-import { projects } from '../projects';
+import { projects } from '../../../projects';
 
 export function generateMetadata({ params }) {
 	const project = projects.find((project) => project.uri === params.uri);

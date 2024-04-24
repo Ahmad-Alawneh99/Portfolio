@@ -1,11 +1,10 @@
 .headerContainer {
 	align-items: center;
-	background: var(--secondary-background);
-	border-bottom: 2px solid var(--secondary-foreground);
+	background: var(--primary-background);
 	display: flex;
 	height: 64px;
 	justify-content: center;
-	padding: 0 16px;
+	padding-inline: 24px;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -15,30 +14,27 @@
 		align-items: center;
 		display: flex;
 		justify-content: space-between;
-		width: 1100px;
+		width: 1400px;
 	}
+
+	.nameLink {
+		text-decoration: none;
+	};
 
 	.title {
 		font-weight: 600;
 	}
 
-	.leftSectionContainer {
+	.getInTouch {
 		align-items: center;
+		background: var(--primary-foreground);
+		border-radius: 8px;
+		color: var(--primary-background);
 		display: flex;
-		gap: 16px;
-		justify-content: space-between;
-	}
-
-	.navMenu {
-		display: flex;
-		gap: 8px;
-	}
-
-	.navItem {
+		font-weight: bold;
+		height: 40px;
+		justify-content: center;
+		padding-inline: 16px;
 		text-decoration: none;
-
-		&.activeNavItem {
-			border-bottom: 2px solid var(--primary-foreground);
-		}
 	}
 }
