@@ -12,7 +12,7 @@ export default function About() {
 					In parallel, I actively engaged in various non-academic activities, such as problem-solving contests, software development hackathons, and other non-technical pursuits that enhanced my soft skills, including communication and public speaking.
 				</p>
 				<p>
-					Fast forward four years, I graduated and transitioned into a full-time role as a software engineer at <a href='https://optimumpartners.co/' target='_blank'>Optimum Partners Jordan</a>, where I&apos;ve now been for over two years.
+					Fast forward four years, I graduated and transitioned into a full-time role as a software engineer at <a href='https://optimumpartners.co/' target='_blank'>Optimum Partners Jordan</a>, where I&apos;ve stayed for almost four years, before switching to a new role at <a href='https://avertra.com/' target='_blank'>avertra</a>.
 				</p>
 				<p>
 					Throughout this journey, one constant has remained: my unwavering desire to continually learn and grow in the field of software engineering. It has always been, and will continue to be something I genuinely enjoy.
